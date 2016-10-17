@@ -13,5 +13,6 @@ class BasicCal{
       answer = fnum  + snum;
 
       System.out.println(answer);
+
   }
 }
