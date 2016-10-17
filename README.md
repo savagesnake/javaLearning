@@ -8,5 +8,5 @@ example:
 ```
   int age: 20;
   double num: 5.7;
-  boolean isComplete: True;
+  boolean isComplete: true;
 ```
