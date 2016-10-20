@@ -6,6 +6,7 @@ class whileLoop{
       System.out.println(counter);
       counter++;
     }
-
+    tuna tunaObject =  new tuna();
+    tunaObject.simpleMessage();
   }
 }
