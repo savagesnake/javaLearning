@@ -23,8 +23,19 @@ class App{
 
       System.out.println("Print name of first girlfriend: ");
       String temp = input.nextLine();
-      manymethods girlname = new manymethods("Jessica");
+      manymethods girlname = new manymethods("Jennifer");
       girlname.setName(temp);
       girlname.saying();
+
+      System.out.printf("%n===========================%n");
+
+      // import the average class
+        System.out.printf("%nAverage Calculator%n");
+        System.out.println("How many score would you like to enter: ");
+
+        average myaverage = new average();
+        int total = Integer.parseInt(input.nextLine());
+        myaverage.calculate(total);
+
    }
 }
